@@ -1,0 +1,46 @@
+.heading{
+    margin: auto;
+    width: 16%;
+    font-size: x-large;
+    color: brown;
+   
+  
+}
+.Reg{
+    margin: auto;
+    width: 60%;
+    height: 300px;
+    
+     /* background-color: blanchedalmond; */
+    /* margin-top: 10px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column;  */
+}
+.mb-3{
+    margin:auto ;
+    width: 50%;
+    height: 60px;
+    color: blueviolet;
+    font-size:larger;
+   
+
+}
+.Submitbutton{
+    margin-left: 45%;
+    background-color: black;
+    border-color: red;
+    width: auto;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    
+}
+.Section{
+    background-color: rgb(121, 219, 190);
+    height: 600px;
+
+
+}

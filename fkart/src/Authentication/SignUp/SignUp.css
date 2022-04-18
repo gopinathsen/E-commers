@@ -1,0 +1,27 @@
+.regForm{
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    background-color: powderblue;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Submi1{ 
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 10%;
+    border: black;
+    color: blue;
+}
+/* .span{
+    background-color: brown;
+} */
+.Head{
+    text-align: center;
+    font-size: x-large;
+    color: red;
+}

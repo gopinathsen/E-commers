@@ -1,0 +1,87 @@
+{
+    "product1":[{ 
+                "P_name":"Mobile",
+                "P_id":"P01",
+                "P_desc":"MObile Product",
+                "P_subcat":[{
+                                "s_id":"PS01",
+                                "s_name":"Samsung",
+                                "desc":" Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis",
+                                "price":18000,
+                                "s_img":"../../../../Img/123.jpg"
+                                },{
+                                "s_id":"PS02",
+                                "s_name":"Apple",
+                                "desc":" Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis",
+                                "price":37000,
+                                "s_img":"../../../../Img/123.jpg"
+                                },{
+                                 "s_id":"PS03",
+                                 "s_name":"Sony",
+                                 "desc":" Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis",
+                                 "price":40000,
+                                 "s_img":"../../../../Img/123.jpg"
+                                }]
+
+
+
+    },
+                                
+    
+    
+    { 
+                "P_name":"Computer",
+                "P_id":"Q02",
+                "P_desc":"Personal Computer",
+                "P_subcat":[{
+                            "s_id":"QS04",
+                            "s_name":"HP",
+                            "desc":" Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis",
+                            "price":30000,
+                            "s_img":"../../../../Img/123.jpg"
+                             },{
+                            "s_id":"QS05",
+                             "s_name":"Apple",
+                             "desc":" Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis",
+                            "price":200000,
+                            "s_img":"../../../../Img/123.jpg"
+                             },{
+                            "s_id":"QS06",
+                            "s_name":"Asus",
+                            "desc":" Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis",
+                            "price":100000,
+                            "s_img":"../../../../Img/123.jpg"
+                            }]
+
+
+
+    },
+    { 
+                "P_name":"Tab",
+                "P_id":"R03",
+                "P_desc":"Tablet",
+                "P_subcat":[{
+                            "s_id":"RS07",
+                            "s_name":"SUMSUNG-TAB",
+                            "desc":"Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis",
+                             "price":20000,
+                             "s_img":"../../../../Img/123.jpg"
+                             },{
+                            "s_id":"RS08",
+                             "s_name":"I-Pad",
+                             "desc":"Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis",
+                             "price":30000,
+                             "s_img":"../../../../Img/123.jpg"
+                             },{
+                             "s_id":"RS09",
+                             "s_name":"MICROMAX-TAB",
+                             "desc":"Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis",
+                             "price":15000,
+                             "s_img":"../../../../Img/123.jpg"
+                            }]
+
+
+
+}
+  ]
+}

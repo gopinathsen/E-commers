@@ -1,0 +1,182 @@
+{
+    "Product":[{
+                 "p_name":"Mobile",
+                 "p_id":"P01",
+                 "p_desc":"Mobile Product",
+                 "p_img":"../../../../IMG/1.jpg",
+                 "p_subcat":[{
+                                "s_id":"PS01",
+                                "s_name":"Samsung Galaxy M33 5G",
+                                "s_desc":"Samsung Galaxy M33 5G (Deep Ocean Blue, 6GB, 128GB Storage) | 5nm Processor | 6000mAh Battery | Voice Focus | Upto 12GB RAM with RAM Plus",
+                                "s_price":18000,
+                                "s_img":"../../../../IMG/1.jpg"
+                 },{
+                                "s_id":"PS02",
+                                "s_name":"Samsung Galaxy S20 FE 5G",
+                                "s_desc":"Samsung Galaxy S20 FE 5G (Cloud Navy, 8GB RAM, 128GB Storage)",
+                                "s_price":36900,
+                                "s_img":"../../../../IMG/2.jpg"
+                 },{
+                                "s_id":"PS03",
+                                "s_name":"Samsung Galaxy A23 Peach",
+                                "s_desc":"Samsung Galaxy A23 Peach, 6GB RAM, 128GB Storage",
+                                "s_price":20000,
+                                "s_img":"../../../../IMG/3.jpg"
+                 }]
+    },{
+                    "p_name":"Laptop",
+                    "p_id":"P02",
+                    "p_desc":"Laptop Product",
+                    "p_img":"../../../../IMG/4.jpg",
+                    "p_subcat":[{
+                                "s_id":"PS04",
+                                "s_name":"HP Laptop",
+                                "s_desc":"HP 15s- Ryzen 5- 8GB RAM/512GB SSD 15.6 Inches FHD, Micro-Edge, Anti-Glare Display (Natural Silver/AMD Radeon Graphics/Alexa/Dual Speakers/Fast Charge/Windows 11/MS Office)",
+                                "s_price":48000,
+                                "s_img":"../../../../IMG/4.jpg"
+
+                 },{
+                                "s_id":"PS05",
+                                "s_name":"ASUS Laptop",
+                                "s_desc":"ASUS VivoBook 15 (2021), 15.6-inch (39.62 cm) HD, Dual Core Intel Celeron N4020, Thin and Light Laptop (4GB RAM/256GB SSD/Integrated Graphics/Windows 11 Home/Transparent Silver/1.8 Kg)",
+                                "s_price":30000,
+                                "s_img":"../../../../IMG/5.jpg"
+
+                 },{
+                                "s_id":"PS06",
+                                "s_name":"ASUS ROG Laptop",
+                                "s_desc":"ASUS ROG Zephyrus M16 (2022), 16-inch (40.64 cms) 2K QHD 165Hz/3ms, Core i9-12900H 12th Gen, RTX 3080 Ti 16GB Graphics, Gaming Laptop (32GB/2TB SSD/Win 11/Office 2021/Black/2 Kg)",
+                                "s_price":30000,
+                                "s_img":"../../../../IMG/6.jpg"
+
+             }] 
+    },{
+                    "p_name":"Book",
+                    "p_id":"P03",
+                    "p_desc":"Book Product",
+                    "p_img":"../../../../IMG/7.jpg",
+                    "p_subcat":[{
+                                "s_id":"PS07",
+                                "s_name":"The Richest Man in Babylon Books",
+                                "s_desc":"The Richest Man in Babylon (Deluxe Hardbound Edition)",
+                                "s_price":250,
+                                "s_img":"../../../../IMG/7.jpg"
+
+                    },{
+                                "s_id":"PS08",
+                                "s_name":"Wings of Fire Books",
+                                "s_desc":"Wings of Fire: An Autobiography of Abdul Kalam",
+                                "s_price":200,
+                                "s_img":"../../../../IMG/8.jpg"
+                    },{
+                                "s_id":"PS09",
+                                "s_name":"Rich Dad Poor Dad Books",
+                                "s_desc":"Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not",
+                                "s_price":370,
+                                "s_img":"../../../../IMG/9.jpg"
+                    },{
+                                "s_id":"PS10",
+                                "s_name":"Bhagvad Gita Books",
+                                "s_desc":"Bhagvad Gita As It Is English",
+                                "s_price":220,
+                                "s_img":"../../../../IMG/10.jpg"
+                    }]
+    },{
+                    "p_name":"Men Clothing",
+                    "p_id":"P04",
+                    "p_desc":"Men Clothing Product",
+                    "p_img":"../../../../IMG/11.jpg",
+                    "p_subcat":[{
+                                
+                            
+                                "s_id":"PS11",
+                                "s_name":"Cotton Kurta",
+                                "s_desc":"Diverse Men's Cotton Kurta",
+                                "s_price":890,
+                                "s_img":"../../../../IMG/11.jpg"
+        },{
+                                    
+                                "s_id":"PS12",
+                                "s_name":"Blended Kurta",
+                                "s_desc":"Manyavar Men's Full Sleeve Knee-Long Blended Kurta",
+                                "s_price":2000,
+                                "s_img":"../../../../IMG/12.jpg"
+        }]
+    },{
+                    "p_name":"Kid Toy",
+                    "p_id":"P05",
+                    "p_desc":"Kid Toy Product",
+                    "p_img":"../../../../IMG/13.jpg",
+                    "p_subcat":[{
+                                    
+                                "s_id":"PS13",
+                                "s_name":"Dancing Cactus",
+                                "s_desc":"VEBETO Dancing Cactus Talking Toy Plush Toy Wriggle & Singing Recording Repeat What You Say Funny Education Toys for Babies Children Playing Home Decoration",
+                                "s_price":1000,
+                                "s_img":"../../../../IMG/13.jpg"
+        },{
+                                "s_id":"PS14",
+                                "s_name":"Monster Truck",
+                                "s_desc":"Supreme Deals Mini Monster Truck Friction Powered Cars Toys, 360 Degree Stunt 4wd Cars Push go Truck for Toddlers Kids Gift ( Pack of 2 Car )",
+                                "s_price":400,
+                                "s_img":"../../../../IMG/14.jpg"
+        },{
+                                "s_id":"PS15",
+                                "s_name":"Panda",
+                                "s_desc":"Play Panda ABC Magnets Capital Letters - 26 Magnetic Letters that work on any Fridge and Dry Erase Magnetic Board - Ideal for Alphabet Learning & Spelling Games - Child Safe foam alphabets with full Magnet Back",
+                                "s_price":150,
+                                "s_img":"../../../../IMG/15.jpg" 
+        }]
+                               
+    },{
+                    "p_name":"Grocery",
+                    "p_id":"P06",
+                    "p_desc":"Grocery Product",
+                    "p_img":"../../../../IMG/16.jpg",
+                    "p_subcat":[{
+                                "s_id":"PS16",
+                                "s_name":"Masala Tea ",
+                                "s_desc":"Fresh Produce Society Leaf Masala Tea 500G Water Bottle",
+                                "s_price":380,
+                                "s_img":"../../../../IMG/16.jpg" 
+        },{
+                                "s_id":"PS17",
+                                "s_name":"Surf Excel",
+                                "s_desc":"Surf Excel Easy Wash Detergent Powder 1.5 kg, Washing Powder that Dissolves Easily & Removes Tough Stains on Clothes - Bucket & Machine Wash",
+                                "s_price":216,
+                                "s_img":"../../../../IMG/17.jpg" 
+        },{
+                                "s_id":"PS18",
+                                "s_name":"Aashirvaad Salt",
+                                "s_desc":"Aashirvaad Salt,with 4-Step advantage, 1kg",
+                                "s_price":30,
+                                "s_img":"../../../../IMG/18.jpg" 
+        }]
+
+    },{
+                    "p_name":"Furniture",
+                    "p_id":"P07",
+                    "p_desc":"Furniture",
+                    "p_img":"../../../../IMG/19.jpg" ,
+                    "p_subcat":[{
+                                "s_id":"PS19",
+                                "s_name":"Side Table",
+                                "s_desc":"Sandhya Home Decor Beauty Full Side Table for Home Furniture | Solid Sheesham Wood Bed Side Table with 3 Shelf for Bed Room | Modern Solid Living Room Sofa Side Table & Coffee Table with Shelf ",
+                                "s_price":5000,
+                                "s_img":"../../../../IMG/19.jpg" 
+
+        },{
+                                "s_id":"PS20",
+                                "s_name":"Maison & Cuisine",
+                                "s_desc":"Maison & Cuisine 88130 Brown without Pocket, 6+2 Fancy Layer Collapsible Wardrobe Portable Foldable for Clothes racks high quality steel tube and PP plastic",
+                                "s_price":5000,
+                                "s_img":"../../../../IMG/20.jpg" 
+        },{
+                                "s_id":"PS21",
+                                "s_name":"Wooden Sofa",
+                                "s_desc":"Home furniture Wooden Sofa Set for Living Room and Office Single Seater",
+                                "s_price":5000,
+                                "s_img":"../../../../IMG/21.jpg" 
+        }]
+    }]
+}

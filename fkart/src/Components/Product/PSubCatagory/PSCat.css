@@ -1,0 +1,14 @@
+h2{
+    font-size:larger;
+    text-align: center;
+    /* width: 45% ; */
+}
+.box2{
+    width: 355px;
+    height: 350px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.back{
+    background-color: rgb(207, 183, 209);
+}

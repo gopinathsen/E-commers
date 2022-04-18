@@ -1,0 +1,30 @@
+h1{
+    /* font-size:larger; */
+    /* display: inline-block; */
+    /* width: 45% ; */
+    text-align: center;
+}
+.bag{
+    background-color: bisque;
+}
+.box{
+    width: 286px;
+    height: 300px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.text{
+    font-size: larger;
+    align-items: center;
+    margin: left;
+    justify-content: center;
+    }
+    /* {
+        background-color: aqua;
+    } */
+    .mybutton{
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+
+    }
