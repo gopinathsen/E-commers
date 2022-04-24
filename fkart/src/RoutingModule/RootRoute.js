@@ -10,6 +10,7 @@ import SignUp from '../Authentication/SignUp/SignUp'
 import PCat from '../Components/Product/PCatagory/PCat'
 import PSCat from '../Components/Product/PSubCatagory/PSCat'
 import PDet from '../Components/Product/PDetails/PDet'
+import Footer from '../Components/Footer/Footer'
 
 
 
@@ -34,6 +35,7 @@ export default function RootRoute() {
 
        <Route path="*" element={<PNF/>}/>
      </Routes>
+     <Footer/>
     
    </Router>
 

@@ -6,9 +6,6 @@ import './Contact.css'
 export default function Contact() {
 
    const validateEmail=RegExp('^([a-z0-9.-]+)@([a-z]{5,12}).([a-z.]{2,20})$'); 
-  //  const validatePwd=RegExp('^(?=.*[a-zA-Z0-9])(?=.*[!@#%&*]).{4,15}$');
-  //  const validatePhoneno=RegExp ('[6-9]{1}[0-9]{9}');
-   
    const[inputState,setinputState]=useState({isError:{
      yourname:'',
      email:'',
@@ -16,7 +13,7 @@ export default function Contact() {
    }})
    const handlechange=(event)=>{
          event.persist();
-        //  console.log("Events:",event);
+        
         let{name,value}=event.target;
         let isErr={...inputState.isError};
         switch(name){
@@ -32,7 +29,7 @@ export default function Contact() {
             
             case "Message":
                
-                // isErr.message=validateMessage.test(value)?"":"Wrong patterm"
+              
             break;   
             default: break; 
         }
@@ -47,21 +44,33 @@ export default function Contact() {
 
     return (
     <>
-        <div className="Section1">
-        <p  className="heading"> Enter your Data</p>
+        <div className="Section1" >
+        <h1  className="heading3"> Enter your Data</h1>
+        <p className='Page1'> Any question or remaks? Just write us a message </p>
+
             <Form className='Reg' onSubmit={submitHandler}>
                     <Form.Group className="mb-3" >
-                     <Form.Label>Your_Name</Form.Label>
+                     <Form.Label>Frist Name</Form.Label>
+                     <Form.Control type="Text" placeholder='Enter your First name' name="firstname" onChange={handlechange}/>
+                     </Form.Group>
+
+                     <Form.Group className="mb-3" >
+                     <Form.Label>Last Name</Form.Label>
                      <Form.Control type="Text" placeholder='Enter your First name' name="firstname" onChange={handlechange}/>
                      </Form.Group>
 
                   
 
                     <Form.Group className="mb-3" >
-                     <Form.Label>Email_Address</Form.Label>
+                     <Form.Label>Email</Form.Label>
                      <Form.Control type="email" placeholder='Enter email' name="email" onChange={handlechange}/>
                      </Form.Group>
 
+                     <Form.Group className="mb-3" >
+                     <Form.Label>PhoneNumber</Form.Label>
+                     <Form.Control type="text" placeholder='+91 1234567890' name="phoneno" maxLength={10} onChange={handlechange}/>
+                     </Form.Group>
+                    
 
                      <Form.Group className="mb-3" >
                      <Form.Label className='mess'>Message</Form.Label>

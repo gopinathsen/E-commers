@@ -1,5 +1,6 @@
 import React from 'react'
 import { Carousel,Card,Col,Row} from 'react-bootstrap'
+import './Home.css'
 
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
     <Carousel variant="dark">
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="im"
       src="../../../../IMG/1.jpg"
       alt="First slide"
     />
@@ -21,7 +22,7 @@ export default function Home() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="im"
       src="../../../../IMG/4.jpg"
       alt="Second slide"
     />
@@ -32,7 +33,7 @@ export default function Home() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="im"
       src="../../../../IMG/7.jpg"
       alt="Third slide"
     />
@@ -45,7 +46,7 @@ export default function Home() {
 
 <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="im"
       src="../../../../IMG/11.jpg"
       alt="Fouth slide"
     />
@@ -57,7 +58,7 @@ export default function Home() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="im"
       src="../../../../IMG/13.jpg"
       alt="Fifth slide"
     />
@@ -69,7 +70,7 @@ export default function Home() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="im"
       src="../../../../IMG/16.jpg"
       alt="Sixth slide"
     />
@@ -81,7 +82,7 @@ export default function Home() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="im"
       src="../../../../IMG/19.jpg"
       alt="Seventh slide"
     />
@@ -100,8 +101,8 @@ export default function Home() {
 <Row xs={1} md={4} className="g-4">
   
     <Col>
-      <Card>
-        <Card.Img variant="top" src="../../../../IMG/1.jpg" />
+      <Card classname='bag3'>
+        <Card.Img variant="top"  src="../../../../IMG/1.jpg" />
         <Card.Body>
           <Card.Title>Mobile Product</Card.Title>
           <Card.Text>
@@ -110,13 +111,8 @@ export default function Home() {
         </Card.Body>
       </Card>
     </Col>
-  
-{/* </Row>
-
-<Row xs={1} md={4} className="g-4"> */}
-  
     <Col>
-      <Card>
+      <Card classname='bag3'> 
         <Card.Img variant="top" src="../../../../IMG/4.jpg" />
         <Card.Body>
           <Card.Title>Laptop Product</Card.Title>
@@ -127,12 +123,10 @@ export default function Home() {
       </Card>
     </Col>
   
-{/* </Row>
 
-<Row xs={1} md={4} className="g-4"> */}
   
     <Col >
-      <Card>
+      <Card classname='bag3'>
         <Card.Img variant="top" src="../../../../IMG/7.jpg" />
         <Card.Body>
           <Card.Title> Book Product</Card.Title>
@@ -143,12 +137,10 @@ export default function Home() {
       </Card>
     </Col>
   
-{/* </Row>
 
-<Row xs={1} md={4} className="g-4"> */}
   
     <Col >
-      <Card>
+      <Card classname='bag3'>
         <Card.Img variant="top" src="../../../../IMG/11.jpg" />
         <Card.Body>
           <Card.Title> Men Clothing</Card.Title>
@@ -159,10 +151,9 @@ export default function Home() {
       </Card>
     </Col>
   
-{/* </Row>
-<Row xs={1} md={4} className="g-4"> */}
+
 <Col >
-      <Card>
+      <Card classname='bag3'>
         <Card.Img variant="top" src="../../../../IMG/13.jpg" />
         <Card.Body>
           <Card.Title> Kid Toy</Card.Title>
@@ -172,11 +163,9 @@ export default function Home() {
         </Card.Body>
       </Card>
     </Col>
-  {/* </Row>
   
-  <Row xs={1} md={4} className="g-4"> */}
 <Col >
-      <Card>
+      <Card classname='bag3'>
         <Card.Img variant="top" src="../../../../IMG/16.jpg" />
         <Card.Body>
           <Card.Title> Grocery</Card.Title>

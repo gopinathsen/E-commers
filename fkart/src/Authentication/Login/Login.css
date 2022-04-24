@@ -25,10 +25,10 @@
 
 }
 .new1{
-    background-color: tan;
-    /* display:flex ; */
+    background-image: url("/public/IMG/23.jpg");
+    background-size: cover;
+    
     height: 600px;
-    width: 1400px;
 }
 .head2{
     margin-left:8%;

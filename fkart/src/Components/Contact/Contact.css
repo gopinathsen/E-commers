@@ -1,5 +1,7 @@
 .Section1{
-    background-color:darkkhaki;
+    background-image: url("/public/IMG/23.jpg");
+    background-size: cover;
+    
     height: 600px;
 
 
@@ -14,4 +16,15 @@
     align-items: center;
     display: inline-block;
     
+}
+
+.heading3{
+        font-size: 30px;
+}
+.Page1{
+    font-size: 20px;
+    width: 35%;
+    height: 50px;
+    margin:auto;
+    justify-content: center;
 }
